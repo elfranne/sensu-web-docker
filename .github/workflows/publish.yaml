@@ -19,4 +19,4 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USER }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
           buildArgs: VERSION=v1.2.1
-          tags: sensu-web-docker:${{github.ref_name}}
+          tags: ${{github.ref_name}}
