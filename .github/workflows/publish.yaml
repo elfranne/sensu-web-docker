@@ -18,5 +18,5 @@ jobs:
           registry: docker.io
           username: ${{ secrets.DOCKERHUB_USER }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
-          buildArgs: VERSION=v1.2.1
+          buildArgs: VERSION=v1.1.0
           tags: ${{github.ref_name}}
